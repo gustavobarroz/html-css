@@ -1,0 +1,77 @@
+REGRAS
+@charset "UTF-8"; Para evitar problemas com acentuações
+@import url(); Para importar algum link
+@font-face Adiciona fontes baixadas
+
+            SELETORES PERSONALIZADOS
+link:css
+style="" Altera estilos do site
+id             = #
+class          =  .
+pseudo-class   = :
+pseudo-element = ::
+     >         = Children(filho)
+
+*{ - CONFIGURAÇÕES GLOBAIS DAS CSS
+ 
+         PSEUDO-CLASS:
+:active - Muda o estilo ao clicar
+:hover - Ilumina uma div ao passar mouse em cima
+:root - Adiciona variável em CSS
+:visited - Muda estilos para links ja visitado
+
+         PSEUDO-ELEMENT::
+::before Adiciona antes
+::after Adiciona depois 
+
+
+             TAGS STYLE TELA
+background-color: Muda a cor de fundo do site
+background-image:linear-gradient(to top, to bottom, to left, to right"
+Para colocar degradê
+background-image:url() Para colocar imagem como fundo do site
+border-color: ;Muda a cor da borda
+border-image-source:; Adiciona borda decorada.png
+border-radius:;Muda o arredondamento da borda(valor pode ser em %)
+border-style: ;Muda o estilo da borda
+border-width: ;Muda a largura da borda
+min-width: ; Largura mínima da tela(indicado para celulares 320px+-)
+max-width: ; Largura máxima da tela(Indicado para tvs 1000px+-)
+
+             FONT
+"font-family:" Muda a fonte
+"font-size: 16px" 16 pixels ou 1em sendo padrões, Muda tamanho das letras
+"font-style: " Muda o estilo da fonte
+"font-weight:lighter,normal,bold,bolder" Muda o peso da fonte
+
+            LIST
+columns:; Muda o número de colunas da lista
+list-style-position :inside,outside; Muda a posição da lista
+list-style-type: '\código\00A0'; Muda o emoji da lista
+
+ 
+              TEXT ALIGN
+line-height: Muda a altura entre linhas
+text-align: center, right, left Alinha o texto em diferentes posições
+text-align: justify Normalmente usado em parágrafos para alinhar o texto
+unilateralmente
+text-decoration; underline; Adiciona sublinhamento no texto selecionado
+text-indent: 30px Coloca espaço no começo do parágrafo
+text-shadow: Adiciona sombra ao texto
+
+GAMBIARRA PARA DEIXA VIDEO RESPONSIVO CSS
+CRIAR CLASS NO HTML E DEPOIS
+div.video {
+        background-color: var(--cor5);
+        margin: 0px -20px 30px -20px;
+        padding: 20px;
+        padding-bottom: 56.25%;
+        position: relative;
+    }
+
+    div.video > iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;

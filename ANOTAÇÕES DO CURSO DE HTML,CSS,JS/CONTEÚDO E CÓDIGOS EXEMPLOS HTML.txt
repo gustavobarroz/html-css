@@ -1,0 +1,78 @@
+Símbolos e emojis - para adicionar emoji: &#xcódigo;
+&lt; - sinal de <
+&gt; - sinal de >
+&reg; - Símbolo de copyright
+&copy; - Símbolo de copyright
+&trade; - Marca registrada
+&euro; - Símbolo do euro
+&pound; - Símbolo da libra
+&yen; - Símbolo do yen
+&cent; - Simbolo de centavo americano
+&Delta; - Simbolo delta
+&uarr; - Seta pra cima
+
+ESTRUTURA BÁSICA HTML
+1.<header> - Cabeçalho,título
+2.<nav> - Menu de navegação
+3.<main> - Conteúdo principal do site
+4.<article> - Artigo
+5.<aside> - conteúdo q n é o principal,conteúdo extra
+6.<section> - Seção no site (noticias, informacoes)
+7.<footer> - rodapé
+
+CÓDIGOS BÁSICOS HTML
+
+<h1> ao <h6> Exemplo de título
+<p> Exemplo de parágrafo </p>
+<br> - quebra de linhas
+<b> - Negrito (não semântica)
+<strong> - destaque (semântica)
+<i> - Itálico (não semântica)
+<address> = Exemplo de Endereço
+<mark> = Coloca marca texto num local
+<big> = Texto grande
+<small> = Texto pequeno
+<del> = Texto excluído
+<ins> = Texto sublinhado
+<sup>= Texto sobrescrito (acima)
+<sub> = Texto subscrito (abaixo)
+<code>= Texto melhor para ler códigos
+<pre>= Melhora a forma de escrever códigos
+<q> = Significa "quote",coloca aspas quando ouver citação
+<blockquote> Adiciona uma citação em bloco
+<abbr> Adiciona explicação para abreviações ao passar mouse em cima
+<bdo> Texto invertido
+<table> Adiciona tabela
+<tr> Linhas da tabela
+<th> Cabeçalho de tabela
+<td> Conteúdo da tabela
+
+           LISTAS
+<ol> Ordered List (Lista ordenada)
+<ul> Unordered List (Lista NÃO ordenada)
+<dl> Definition List (Lista de Definição)
+<li> List Icon
+<dt> Definition Term
+<dd> Definition Description
+
+            LINKS
+<a href=""> Comando para link externo
+target="_blank" rel="external" Para abrir o link em outra aba
+rel="next" e rel="prev" Deixa claro uma ação de anterior e 
+próxima página
+rel="nofollow" Deixa claro ao mecanismo de pesquisa que vc n da
+o aval para tal site
+
+     MÍDIAS
+
+<picture> Para colocar imagens adaptáveis no site
+source mediatype deixa escolher o tamanha maximo das imagens para que 
+adapte a todas as telas
+<audio src="" controls> Adiciona áudio ao site apertando no botão play
+<audio src="" autoplay> Adiciona áudio ao site e começa a tocar sozinho
+<audio src="" loop> Adiciona áudio ao site e recomeça ao fim do tempo.
+<video src="" controls> Adiciona vídeos ao clicar no play
+poster="" Adiciona uma thumb ao vídeo
+<img src="foto.png" alt="Exemplo de foto">
+<link rel="shortcut icon" href="Exemplo de favicon" type="image/x-icon"
+
